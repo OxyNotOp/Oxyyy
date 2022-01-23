@@ -6,8 +6,8 @@
 <p align="center">
     <a href="https://t.me/OxyXmusicRobot"> Ready-To-Use Bot </a> •
     <a href="https://notreallyshikhar.gitbook.io/OxyXmusicmusicbot/about/getting-started"> Documentation </a> •
-    <a href="https://t.me/OfficialOxyXmusic"> Support Channel </a> •
-    <a href="https://t.me/OxyXmusicSupport"> Support Chat </a> 
+    <a href="https://t.me/FeelingsOP"> Support Channel </a> •
+    <a href="https://t.me/bestiesfortheresties"> Support Chat </a> 
 </p>
     
 # OxyXmusic Music Bot
@@ -75,7 +75,7 @@ shikhar@MacBook~ $ cp sample.env .env
 shikhar@MacBook~ $ bash start
 ```
 
-> Not Getting VPS Method? [Watch Tutorial](https://t.me/OfficialOxyXmusic/2275)
+> Not Getting VPS Method? [Watch Tutorial](https://t.me/FeelingsOP/2275)
 </details>
 
 ## Config Vars
@@ -86,8 +86,8 @@ shikhar@MacBook~ $ bash start
 
 ## Contact & Support
 
-- [Telegram Channel](https://t.me/OfficialOxyXmusic)
-- [Telegram Support Group](https://t.me/OfficialOxyXmusicSupport)
+- [Telegram Channel](https://t.me/FeelingsOP)
+- [Telegram Support Group](https://t.me/Officialbestiesfortheresties)
 - [Contact Owner](https://t.me/NotReallyShikhar)
 
 
