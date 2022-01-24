@@ -4,8 +4,8 @@
     A Telegram Music+video Bot written in Python using Pyrogram and Py-Tgcalls 
 </h4>
 <p align="center">
-    <a href="https://t.me/OxyXmusicRobot"> Ready-To-Use Bot </a> •
-    <a href="https://notreallyshikhar.gitbook.io/OxyXmusicmusicbot/about/getting-started"> Documentation </a> •
+    <a href="https://t.me/Music_op_bot"> Ready-To-Use Bot </a> •
+    <a href="https://OxyNotOp.gitbook.io/Oxyyy/about/getting-started"> Documentation </a> •
     <a href="https://t.me/FeelingsOP"> Support Channel </a> •
     <a href="https://t.me/bestiesfortheresties"> Support Chat </a> 
 </p>
@@ -14,7 +14,7 @@
 A Powerful Telegram Music+Video Bot by which you can stream songs, videos and even live streams in your group calls via various sources. It comes with  user friendly and easy to use yet elegant features.
 
 ## Deployment
-Read [Docs](https://notreallyshikhar.gitbook.io/OxyXmusicmusicbot/deployment/requirements) for Detailed Description and Setup Guide on deploying Bot.
+Read [Docs](https://OxyNotOp.gitbook.io/Oxyyy/deployment/requirements) for Detailed Description and Setup Guide on deploying Bot.
 
 > Click on buttons to expand!
 <details>
@@ -40,7 +40,7 @@ Read [Docs](https://notreallyshikhar.gitbook.io/OxyXmusicmusicbot/deployment/req
 <p><a href="https://replit.com/@NotReallyShikhar/OxyXmusic-Music-String-Gen"><img src="https://img.shields.io/badge/Generate%20On%20Repl-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
 
 <h4> Generate Session via Telegram StringGen Bot: </h4>    
-<p><a href="https://t.me/OxyXmusicStringBot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
+<p><a href="https://t.me/Pyrogram_gen_bot"><img src="https://img.shields.io/badge/TG%20String%20Gen%20Bot-blueviolet?style=for-the-badge&logo=appveyor" width="200""/></a></p>
     
 </details>
 
@@ -53,7 +53,7 @@ Read [Docs](https://notreallyshikhar.gitbook.io/OxyXmusicmusicbot/deployment/req
 > Those two vars are not Mandatory! You can leave them blank too. 
     
 <h4>Click the button below to deploy OxyXmusic on Heroku!</h4>    
-<p><a href="https://vegetaxd.me/OxyXmusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
+<p><a href="https://FallenAngel_xD.me/OxyXmusic"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/></a></p>
     
 </details>
 
@@ -65,8 +65,8 @@ Read [Docs](https://notreallyshikhar.gitbook.io/OxyXmusicmusicbot/deployment/req
 
 
 ```console
-shikhar@MacBook~ $ git clone https://github.com/OxyXmusic/Oxyyy
-shikhar@MacBook~ $ cd OxyXmusicMusicBot
+shikhar@MacBook~ $ git clone https://github.com/OxyNotOp/Oxyyy
+shikhar@MacBook~ $ cd Oxyyy
 shikhar@MacBook~ $ pip3 install -U -r requirements.txt
 shikhar@MacBook~ $ cp sample.env .env
 ```
