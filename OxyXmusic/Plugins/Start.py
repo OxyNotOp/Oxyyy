@@ -12,7 +12,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 from OxyXmusic import ASSIDS, BOT_ID, MUSIC_BOT_NAME, OWNER_ID, SUDOERS, app
 from OxyXmusic import boottime as bot_start_time
 from OxyXmusic import db, random_assistant
-from OxyXmusic.Core.PyTgCalls import Yukki
+from OxyXmusic.Core.PyTgCalls import OxyXmusic
 from OxyXmusic.Database import (add_nonadmin_chat, add_served_chat,
                             blacklisted_chats, get_assistant, get_authuser,
                             get_authuser_names, get_start, is_nonadmin_chat,
