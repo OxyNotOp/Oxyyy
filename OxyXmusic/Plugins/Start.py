@@ -27,22 +27,6 @@ from OxyXmusic.Utilities.ping import get_readable_time
 
 welcome_group = 2
 
-__MODULE__ = "Essentials"
-__HELP__ = """
-
-
-/start 
-- Start the Bot.
-
-
-/help 
-- Get Commands Helper Menu.
-
-
-/settings 
-- Get Settings button.
-"""
-
 
 @app.on_message(filters.new_chat_members, group=welcome_group)
 async def welcome(_, message: Message):
@@ -307,7 +291,7 @@ async def start_markup_check(_, CallbackQuery):
         }
         volume = 200
         try:
-            await Yukki.pytgcalls.change_volume_call(c_id, volume)
+            await OxyXmusic.pytgcalls.change_volume_call(c_id, volume)
             await CallbackQuery.answer("Setting Audio Changes ...")
         except:
             return await CallbackQuery.answer("No active Group Call...")
@@ -329,7 +313,7 @@ async def start_markup_check(_, CallbackQuery):
             "volume": volume,
         }
         try:
-            await Yukki.pytgcalls.change_volume_call(c_id, volume)
+            await OxyXmusic.pytgcalls.change_volume_call(c_id, volume)
             await CallbackQuery.answer("Setting Audio Changes ...")
         except:
             return await CallbackQuery.answer("No active Group Call...")
@@ -351,7 +335,7 @@ async def start_markup_check(_, CallbackQuery):
             "volume": volume,
         }
         try:
-            await Yukki.pytgcalls.change_volume_call(c_id, volume)
+            await OxyXmusic.pytgcalls.change_volume_call(c_id, volume)
             await CallbackQuery.answer("Setting Audio Changes ...")
         except:
             return await CallbackQuery.answer("No active Group Call...")
@@ -373,7 +357,7 @@ async def start_markup_check(_, CallbackQuery):
             "volume": volume,
         }
         try:
-            await Yukki.pytgcalls.change_volume_call(c_id, volume)
+            await OxyXmusic.pytgcalls.change_volume_call(c_id, volume)
             await CallbackQuery.answer("Setting Audio Changes ...")
         except:
             return await CallbackQuery.answer("No active Group Call...")
@@ -395,7 +379,7 @@ async def start_markup_check(_, CallbackQuery):
             "volume": volume,
         }
         try:
-            await Yukki.pytgcalls.change_volume_call(c_id, volume)
+            await OxyXmusic.pytgcalls.change_volume_call(c_id, volume)
             await CallbackQuery.answer("Setting Audio Changes ...")
         except:
             return await CallbackQuery.answer("No active Group Call...")
@@ -417,7 +401,7 @@ async def start_markup_check(_, CallbackQuery):
             "volume": volume,
         }
         try:
-            await Yukki.pytgcalls.change_volume_call(c_id, volume)
+            await OxyXmusic.pytgcalls.change_volume_call(c_id, volume)
             await CallbackQuery.answer("Setting Audio Changes ...")
         except:
             return await CallbackQuery.answer("No active Group Call...")
@@ -439,7 +423,7 @@ async def start_markup_check(_, CallbackQuery):
             "volume": volume,
         }
         try:
-            await Yukki.pytgcalls.change_volume_call(c_id, volume)
+            await OxyXmusic.pytgcalls.change_volume_call(c_id, volume)
             await CallbackQuery.answer("Setting Audio Changes ...")
         except:
             return await CallbackQuery.answer("No active Group Call...")
@@ -502,5 +486,5 @@ async def start_markup_check(_, CallbackQuery):
     if command == "DIT":
         diske = psutil.disk_usage("/").percent
         await CallbackQuery.answer(
-            f"Yukki Disk Usage: {diske}%", show_alert=True
+            f"OxyXmusic Disk Usage: {diske}%", show_alert=True
         )
