@@ -13,29 +13,11 @@ from OxyXmusic import SUDOERS, app, db_mem, random_assistant
 from OxyXmusic.Database import (get_active_chats, get_active_video_chats,
                             get_assistant, is_active_chat, save_assistant)
 from OxyXmusic.Decorators.checker import checker, checkerCB
-from OxyXmusic.Inline import primary_markup,choose_markup
+from OxyXmusic.Inline import choose_markup, primary_markup
 from OxyXmusic.Utilities.assistant import get_assistant_details
 
 loop = asyncio.get_event_loop()
 
-__MODULE__ = "Join/Leave"
-__HELP__ = """
-
-**Note:**
-Only for Sudo Users
-
-
-/joinassistant [Chat Username or Chat ID]
-- Join assistant to a group.
-
-
-/leaveassistant [Chat Username or Chat ID]
-- Assistant will leave the particular group.
-
-
-/leavebot [Chat Username or Chat ID]
-- Bot will leave the particular chat.
-"""
 
 @app.on_callback_query(filters.regex("gback_list_chose_stream"))
 async def gback_list_chose_stream(_, CallbackQuery):
