@@ -403,8 +403,8 @@ All commands can be used with: /
     )
 
 
-@app.on_callback_query(filters.regex("shikhar"))
-async def shikhar(_, CallbackQuery):
+@app.on_callback_query(filters.regex("OxyNotOp"))
+async def OxyNotOp(_, CallbackQuery):
     text, keyboard = await help_parser(CallbackQuery.from_user.mention)
     await CallbackQuery.message.edit(text, reply_markup=keyboard)
 
