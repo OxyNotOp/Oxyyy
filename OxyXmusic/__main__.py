@@ -10,8 +10,8 @@ from rich.console import Console
 from rich.table import Table
 from youtubesearchpython import VideosSearch
 
-from config import (LOG_GROUP_ID, LOG_SESSION, STRING1, STRING2,
-                    STRING3, STRING4, STRING5)
+from config import (LOG_GROUP_ID, LOG_SESSION, STRING1, STRING2, STRING3,
+                    STRING4, STRING5)
 from OxyXmusic import (ASS_CLI_1, ASS_CLI_2, ASS_CLI_3, ASS_CLI_4, ASS_CLI_5,
                    ASSID1, ASSID2, ASSID3, ASSID4, ASSID5, ASSNAME1, ASSNAME2,
                    ASSNAME3, ASSNAME4, ASSNAME5, BOT_ID, BOT_NAME, LOG_CLIENT,
@@ -30,6 +30,7 @@ try:
     from config import START_IMG_URL
 except:
     START_IMG_URL = None
+
 
 loop = asyncio.get_event_loop()
 console = Console()
@@ -240,11 +241,11 @@ async def initiate_bot():
     console.print(f"\n[red]Stopping Bot")
 
 
-home_text_pm = f"""Hᴇʟʟᴏᴡ ,
-Mʏ ɴᴀᴍᴇ ɪs {BOT_NAME}.
-A ᴛᴇʟᴇɢʀᴀᴍ ᴍᴜsɪᴄ+ᴠɪᴅᴇᴏ sᴛʀᴇᴀᴍɪɴɢ ʙᴏᴛ ᴡɪᴛʜ sᴏᴍᴇ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.
+home_text_pm = f"""Hello ,
+My name is {BOT_NAME}.
+A Telegram Music+Video Streaming bot with some useful features.
 
-Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ:/ """
+All commands can be used with: / """
 
 
 @app.on_message(filters.command("help") & filters.private)
@@ -403,8 +404,8 @@ All commands can be used with: /
     )
 
 
-@app.on_callback_query(filters.regex("OxyNotOp"))
-async def OxyNotOp(_, CallbackQuery):
+@app.on_callback_query(filters.regex("shikhar"))
+async def shikhar(_, CallbackQuery):
     text, keyboard = await help_parser(CallbackQuery.from_user.mention)
     await CallbackQuery.message.edit(text, reply_markup=keyboard)
 
