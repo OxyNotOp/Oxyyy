@@ -11,6 +11,7 @@ wget
 python-dotenv
 youtube-search-python
 youtube-search
+speedtest-cli
 motor
 psutil
 requests
